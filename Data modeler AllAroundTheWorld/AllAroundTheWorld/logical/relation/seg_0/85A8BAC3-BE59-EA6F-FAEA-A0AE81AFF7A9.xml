@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAVORITO_RECETA_FK" directorySegmentName="seg_0" id="85A8BAC3-BE59-EA6F-FAEA-A0AE81AFF7A9">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>3CBF6EAB-8B21-6CB7-6BDA-BB3A28242A88</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>B264FCB7-E6DA-8FEB-FE39-F4B6A84A4505</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5CC511F-25A3-7112-F2F6-C22A6016BBE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A2CB926-1B45-2000-20C0-19E7BD443AC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

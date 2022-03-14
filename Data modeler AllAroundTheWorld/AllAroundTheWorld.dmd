@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AllAroundTheWorld" id="BDACE7D1-08D1-AF82-0B4C-19264CAA71AB" version="3.5">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-12 15:29:24 UTC</createdTime>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BDACE7D1-08D1-AF82-0B4C-19264CAA71AB</designId>
+</OSDM_Design>

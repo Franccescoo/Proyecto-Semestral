@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FFF78B2-3146-BBD0-7D15-C6E9C860338D" name="TIPO_USUARIO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>5F485484-0373-F75D-AC8B-F1FDE3282362</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoUsuario" id="AF2E8BFD-C547-BFDF-2BEB-A171E5236E8B">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de los tipo de usuarios]]></commentInRDBMS>
+<generatorID>FAF88180-C54E-E7DF-2805-ACE3B9989E86</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomTipoUsuario" id="792519F8-7BFB-69D2-948B-38D5F3928009">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de los tipo de usuario:
+1. Usuario comun
+2. Escritor
+3. Administrador]]></commentInRDBMS>
+<generatorID>6C6F0523-E19F-5A52-ACCD-4B4B0F9D2A53</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83C5D994-E523-0ADB-17FA-A9877B823BC9" name="TIPO_USUARIO_PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>DFC094F9-3280-B16E-937A-9B6DC014AA92</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF2E8BFD-C547-BFDF-2BEB-A171E5236E8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

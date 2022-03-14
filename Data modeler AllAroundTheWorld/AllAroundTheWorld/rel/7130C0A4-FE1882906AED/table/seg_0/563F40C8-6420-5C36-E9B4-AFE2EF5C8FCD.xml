@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="563F40C8-6420-5C36-E9B4-AFE2EF5C8FCD" name="FAVORITO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>2A2CB926-1B45-2000-20C0-19E7BD443AC8</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFavorito" id="09C739EE-4F2D-E558-1F60-C8745D4D378D">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Diferenciador entre las conexiones de favoritos entre usuario y receta]]></commentInRDBMS>
+<generatorID>1305B692-23E6-9AE7-CCC7-F4D2CC549FA5</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idUser" id="F37F955B-24E0-899F-D7D0-B1509EC435F6">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario alque le gusto una receta]]></commentInRDBMS>
+<generatorID>FFD45BB6-81C6-DE0E-53FB-1F5ED496BC52</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="149D90B9-6A39-BBC6-AA5F-A2479DAC1984" referredColumn="9B5E6A8B-9510-E966-DCCE-BFEDB392B68D"/>
+</associations>
+</Column>
+<Column name="idReceta" id="AD2B1D07-9D4E-B004-2FE3-70ED2E90106C">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Receta la cual fue del gusto del usuario]]></commentInRDBMS>
+<generatorID>B40B019B-172F-0B9C-4957-35D146870948</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA3315AE-8447-495C-1BBF-D6EA6AF1D7C0" referredColumn="96FB32F7-6C4D-7413-3879-9ADDB5954233"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43B536E0-2DD0-CC95-202A-7D94843D0D1B" name="FAVORITO_PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>D1153380-0D84-23B2-63BC-E4D286484D50</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C739EE-4F2D-E558-1F60-C8745D4D378D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="464CB397-1FDD-6153-071B-6C04884ADC84" name="FAVORITO_RECETA_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>85A8BAC3-BE59-EA6F-FAEA-A0AE81AFF7A9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD2B1D07-9D4E-B004-2FE3-70ED2E90106C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC3F03BE-B827-1EB5-CF72-4544A1F96FFC" name="FAVORITO_USUARIO_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>29A8D5A6-53FA-DE25-E1D0-80AFEE6225CA</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F37F955B-24E0-899F-D7D0-B1509EC435F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

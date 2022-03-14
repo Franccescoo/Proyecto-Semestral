@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="004BC88F-328C-EA3E-6677-A4EA28CDFC1A" containerWithKeyObject="A406CDB3-408B-6B72-0273-0706FACB0BC2" localFKIndex="2336238B-C559-B6EB-38B4-E7DCFE804AD0" name="RECENIA_RECETA_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>D7EB7BA8-5C7C-93F4-B663-D8BC5532758B</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<referredTableLongName>RECETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC08962B-A69F-22C8-1E86-37629903A6E2</referredTableID>
+<keyObject>A572E47E-DA60-47D0-D6F9-2F9887CE764A</keyObject>
+<referredKeyID>A572E47E-DA60-47D0-D6F9-2F9887CE764A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idReceta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

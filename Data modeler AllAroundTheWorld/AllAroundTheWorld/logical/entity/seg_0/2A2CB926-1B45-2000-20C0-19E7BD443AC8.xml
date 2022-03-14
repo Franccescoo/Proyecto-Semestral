@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A2CB926-1B45-2000-20C0-19E7BD443AC8" name="FAVORITO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>F3B34152-1929-D93E-196B-5745B7E16144</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFavorito" id="1305B692-23E6-9AE7-CCC7-F4D2CC549FA5">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Diferenciador entre las conexiones de favoritos entre usuario y receta]]></commentInRDBMS>
+<generatorID>E83D4B52-BE9A-4F19-1FED-8922682A5669</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUser" id="FFD45BB6-81C6-DE0E-53FB-1F5ED496BC52">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario alque le gusto una receta]]></commentInRDBMS>
+<generatorID>29A8D5A6-53FA-DE25-E1D0-80AFEE6225CA</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>BB517337-8699-C86D-275F-DD5BAE23A06A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idReceta" id="B40B019B-172F-0B9C-4957-35D146870948">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Receta la cual fue del gusto del usuario]]></commentInRDBMS>
+<generatorID>85A8BAC3-BE59-EA6F-FAEA-A0AE81AFF7A9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>285F3262-DD46-4D6C-DF83-8625452E9EF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1153380-0D84-23B2-63BC-E4D286484D50" name="FAVORITO PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>82E44D21-A419-1E8B-462A-7607119F19E9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1305B692-23E6-9AE7-CCC7-F4D2CC549FA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

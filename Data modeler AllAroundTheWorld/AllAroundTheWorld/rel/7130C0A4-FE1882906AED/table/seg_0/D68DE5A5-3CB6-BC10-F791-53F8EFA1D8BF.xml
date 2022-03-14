@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D68DE5A5-3CB6-BC10-F791-53F8EFA1D8BF" name="TIPO_ALIMENTO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>9645053E-D81C-E4BF-4A99-B4F5571F0704</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoAlimento" id="ED7CC572-D29A-5CD4-3057-45A8A8A0C692">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del tipo de alimento]]></commentInRDBMS>
+<generatorID>EA7A8CFC-655A-6B37-2F33-EFDC7247C527</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomTipoAlimento" id="89EE0140-76F3-FAA0-F496-C0C6258E66A2">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de alimento.
+1. Comida
+2. Postre
+3. Bebida
+4. Otro]]></commentInRDBMS>
+<generatorID>05723C8C-0FD8-71BB-5421-720F1A1A3D5D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86DF86F3-374C-B153-CF36-4F1AE438A7DB" name="TIPO_ALIMENTO_PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>F4CC595B-8C0E-469F-CB77-B34EFD7C2CC2</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED7CC572-D29A-5CD4-3057-45A8A8A0C692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

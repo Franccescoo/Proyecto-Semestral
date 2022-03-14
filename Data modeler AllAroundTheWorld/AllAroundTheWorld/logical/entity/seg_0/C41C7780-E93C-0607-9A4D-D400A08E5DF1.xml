@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C41C7780-E93C-0607-9A4D-D400A08E5DF1" name="USUARIO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>297551B8-423B-8AEF-D4DE-4C3F6D35EE4C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUser" id="BB517337-8699-C86D-275F-DD5BAE23A06A">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del usuario]]></commentInRDBMS>
+<generatorID>6041704E-C720-68B2-ACF0-D9076BDA47E4</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="95BA500D-00C0-DC77-202F-F43BECE157D8">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
+<generatorID>B75651A5-544B-35A7-17F6-18CEB73CD3A9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="F43C3217-F37B-E02A-D2B7-0CAF798FD4F0">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contraseña del usuario]]></commentInRDBMS>
+<generatorID>8109518A-817F-FBDA-89AB-92980A999A5D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="EB11AEC5-68CC-8401-3D6A-BC6428838103">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electronico del usuario]]></commentInRDBMS>
+<generatorID>EA6E0EC5-8711-A8ED-0FE8-404321901F35</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipoUsuario" id="CD43EB94-D65E-4D4C-D7D7-3763C5048857">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de usuario]]></commentInRDBMS>
+<generatorID>CE9557A7-9A18-92E9-0149-3AA6DE8D7F9D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>FAF88180-C54E-E7DF-2805-ACE3B9989E86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76D8D11F-9B58-24F0-00F1-4C7E666C0C53" name="USUARIO PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>0F85F01D-99AA-705F-48B1-9DF5914BC83E</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB517337-8699-C86D-275F-DD5BAE23A06A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

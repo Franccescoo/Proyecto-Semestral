@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC08962B-A69F-22C8-1E86-37629903A6E2" name="RECETA">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>F5CC511F-25A3-7112-F2F6-C22A6016BBE0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReceta" id="96FB32F7-6C4D-7413-3879-9ADDB5954233">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de la receta]]></commentInRDBMS>
+<generatorID>285F3262-DD46-4D6C-DF83-8625452E9EF3</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreReceta" id="ACB0DA92-01A0-4DDF-DEFB-9DF2121D7019">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la receta]]></commentInRDBMS>
+<generatorID>6E9180F5-781D-5456-7C3D-2C8AAE7E6A92</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ingrediente" id="B2271074-42DC-72BA-9CE6-BF35DBADCE24">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ingredientes usados en la receta]]></commentInRDBMS>
+<generatorID>13F12B16-4636-7462-0FF6-24161238BAFE</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preparacion" id="740914D8-F349-EAD2-9E6D-5EE82A8ECCE4">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paso a paso de la preparacion de la recta.]]></commentInRDBMS>
+<generatorID>9089F280-DF68-AFB3-DBFE-F6CE0FC9B1F2</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="4D85605B-478B-800D-E460-E51C502633AE">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Comentarios opcionales del escritor sobre su receta.]]></commentInRDBMS>
+<generatorID>50C5CC75-3D08-AED8-5DEB-DC1156FA692E</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idNacionalidad" id="D5972D8D-BE1D-C8D1-DDD0-7D26FC58B02B">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con la nacionalidad de la receta]]></commentInRDBMS>
+<generatorID>70DD1E45-CD8B-C2FF-0B3A-53886D6C85E0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="502C17CC-3BCC-81F3-4F19-B4CC76122129" referredColumn="7EB4D6E8-EEA6-8DC2-CE85-3742A7241E62"/>
+</associations>
+</Column>
+<Column name="idTipoAlimento" id="9664D900-1A15-CA93-2209-57B572E3C4E2">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de alimento de la receta]]></commentInRDBMS>
+<generatorID>826A563B-2356-A1B0-9BFE-7A3959DB5189</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0558F36F-5326-8261-4773-0E659B51F10D" referredColumn="ED7CC572-D29A-5CD4-3057-45A8A8A0C692"/>
+</associations>
+</Column>
+<Column name="idTipoDieta" id="54817AE3-7EE1-20D3-B9CB-4DB7B3A8CA4A">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de dieta de la receta]]></commentInRDBMS>
+<generatorID>1D28C5F8-3C1E-35BB-AF77-AFC4C9B3A0DC</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="603D9E9A-E1C1-CFD4-5824-B85F6FBDE2FE" referredColumn="1A43C323-992A-D8E1-0F65-7BA21E1E5A01"/>
+</associations>
+</Column>
+<Column name="idUser" id="0D08036D-905F-FA45-E009-C22E629EC939">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Escritor de la receta]]></commentInRDBMS>
+<generatorID>06DE0331-3143-A190-7CB7-461488A7845A</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A915226D-C9B3-C3DA-9ACE-7ABF1195B376" referredColumn="9B5E6A8B-9510-E966-DCCE-BFEDB392B68D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A572E47E-DA60-47D0-D6F9-2F9887CE764A" name="RECETA_PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>B264FCB7-E6DA-8FEB-FE39-F4B6A84A4505</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96FB32F7-6C4D-7413-3879-9ADDB5954233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B56D13C-7554-1B66-0508-1A178B2AF89C" name="RECETA_NACIONALIDAD_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>5E8B8C74-B763-ADF1-7E7C-44652CBFFCDB</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5972D8D-BE1D-C8D1-DDD0-7D26FC58B02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18B9A437-A638-DBFA-BE4A-D6C51B62FA0B" name="RECETA_TIPO_ALIMENTO_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>C2FA4BBB-828D-6FCC-10D8-6E22FB2063A0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9664D900-1A15-CA93-2209-57B572E3C4E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C88C183-AA23-F86E-160F-F1F76AB99F37" name="RECETA_TIPO_DIETA_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>CE495FB0-48D2-5317-41F6-BFCA1B7DE3C2</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54817AE3-7EE1-20D3-B9CB-4DB7B3A8CA4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1CDC2BE-7AA3-B4ED-885F-0F6245EDFAF1" name="RECETA_USUARIO_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<generatorID>0D9154BA-7D69-7B89-B7CF-999F6686F890</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D08036D-905F-FA45-E009-C22E629EC939"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECETA_TIPO_ALIMENTO_FK" directorySegmentName="seg_0" id="C2FA4BBB-828D-6FCC-10D8-6E22FB2063A0">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-13 18:41:30 UTC</createdTime>
+<generatorID>9A9B938F-09AC-013D-AA84-F3563C940FBF</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>F4CC595B-8C0E-469F-CB77-B34EFD7C2CC2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9645053E-D81C-E4BF-4A99-B4F5571F0704</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5CC511F-25A3-7112-F2F6-C22A6016BBE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
