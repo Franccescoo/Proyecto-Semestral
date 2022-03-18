@@ -1,0 +1,11 @@
+body{
+    background: rgb(100, 228, 228);
+    font-size: 120%;
+}
+.logo{
+    float: left;
+}
+div{
+    padding: 40px;
+    padding-left: 450px;
+}
