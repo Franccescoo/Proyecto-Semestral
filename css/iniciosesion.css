@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 body{/* cuerpo inicio*/
     margin: 0;
     padding: 0;
-    background: url(../img/fondo.jpg) no-repeat center top;
+    background: url(../img/LOGIN.png) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
-    height: 100vh;
+
 }
 
 .login-box {/* fondo negro*/
@@ -21,12 +23,11 @@ body{/* cuerpo inicio*/
 
 }
 .login-box .avatar{/* logo*/
-    width: 115px;
+    width: 120px;
     height: 115px;
-    border-radius: 50%;
     position: absolute;
     top: -50px;
-    left: calc(50% - 50px);
+    left: calc(50% - 60px);
 }
 
 .login-box h1{/* Titulo inicia aqui*/
@@ -81,4 +82,23 @@ body{/* cuerpo inicio*/
 
 .login-box a:hover{
     color: #fff;
+}
+
+.Titulo{
+    position: absolute;
+    padding: 380px;
+    padding-left: 250px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    
+}
+
+.slogan{
+    position: absolute;
+    padding: 450px;
+    padding-left: 250px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
