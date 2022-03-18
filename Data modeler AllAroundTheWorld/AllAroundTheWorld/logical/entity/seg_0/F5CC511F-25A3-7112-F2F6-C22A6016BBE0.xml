@@ -75,6 +75,20 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="imagen" id="004532ED-56DF-C071-C6C3-DB37857B8212">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:47:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de la comida]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="comentario" id="50C5CC75-3D08-AED8-5DEB-DC1156FA692E">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:41:30 UTC</createdTime>
@@ -158,8 +172,9 @@
 <createdTime>2022-03-13 18:41:30 UTC</createdTime>
 <generatorID>D9BAADCB-55A7-1AE1-01C7-38DD2890F0D7</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

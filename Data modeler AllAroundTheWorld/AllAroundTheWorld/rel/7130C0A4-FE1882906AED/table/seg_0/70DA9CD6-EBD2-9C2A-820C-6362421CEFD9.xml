@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70DA9CD6-EBD2-9C2A-820C-6362421CEFD9" name="PAGINA">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<generatorID>07DA9905-1FE0-C2E3-4F69-3C2414517878</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRecurso" id="F7E177CC-3F75-2C27-3D5D-1279DEDC462C">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del recurso de la pagina]]></commentInRDBMS>
+<generatorID>EB604A58-E237-10A7-33FF-050392F303EF</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen" id="DB8DF22B-8410-BC4E-8E7F-543ED385EDE8">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen utilizada en la pagina]]></commentInRDBMS>
+<generatorID>6CF93E7F-B6AA-C3E2-0A79-4988A3D3FBD9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E1BFD4A-5D78-CCF6-6227-82DE67261648" name="PAGINA_PK">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<generatorID>F52D9F61-580B-DF7B-B6F3-8FEAF8502CE5</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7E177CC-3F75-2C27-3D5D-1279DEDC462C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

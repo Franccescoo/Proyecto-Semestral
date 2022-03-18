@@ -30,6 +30,89 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="pNombre" id="81A8F2D8-964F-82EC-2F06-58BBE363CBD3">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:48:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer nombre del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sNombre" id="CA75FA35-E877-4145-0D8A-F1AFACC4BD52">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:49:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Segundo nombre del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aPaterno" id="513F4FAB-9D5C-91A3-A97F-A01CE41EF49C">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:50:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido paterno del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aMaterno" id="791E67B2-79DE-687C-EA4B-0D218449F98A">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:50:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido materno del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecNac" id="7D436553-D0A8-3369-E241-1C9A59750A26">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:50:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avatar" id="9B0E4270-258F-7CE6-DE2D-B68703770071">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:46:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de perfil del usuario]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="username" id="95BA500D-00C0-DC77-202F-F43BECE157D8">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:41:30 UTC</createdTime>
@@ -97,8 +180,9 @@
 <createdTime>2022-03-13 18:41:30 UTC</createdTime>
 <generatorID>0F85F01D-99AA-705F-48B1-9DF5914BC83E</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

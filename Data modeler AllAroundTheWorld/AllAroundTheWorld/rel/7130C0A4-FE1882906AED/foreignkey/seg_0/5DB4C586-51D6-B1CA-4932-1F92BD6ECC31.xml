@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DB4C586-51D6-B1CA-4932-1F92BD6ECC31" containerWithKeyObject="BC439784-F4B9-8F29-0EB8-A40F5F453B29" localFKIndex="0561EE20-2E29-E891-37FF-CCB4C7C1B62C" name="RECETA_NACIONALIDAD_FK">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<generatorID>5E8B8C74-B763-ADF1-7E7C-44652CBFFCDB</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<referredTableLongName>NACIONALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B832E21-7D0B-8B71-73AD-8084B690854D</referredTableID>
+<keyObject>8EE3CBA6-BA33-65BF-56D0-4B3394A2FE6C</keyObject>
+<referredKeyID>8EE3CBA6-BA33-65BF-56D0-4B3394A2FE6C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idNacionalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

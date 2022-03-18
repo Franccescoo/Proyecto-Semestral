@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E838C89B-3BE8-0549-FCC6-6CC3F9A675C8" containerWithKeyObject="BC439784-F4B9-8F29-0EB8-A40F5F453B29" localFKIndex="FD9D4C28-6B99-A782-11EB-A6F1A1D863EE" name="RECETA_TIPO_ALIMENTO_FK">
+<createdBy>cetecom</createdBy>
+<createdTime>2022-03-18 12:58:40 UTC</createdTime>
+<generatorID>C2FA4BBB-828D-6FCC-10D8-6E22FB2063A0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<referredTableLongName>TIPO_ALIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>697CC623-E793-CE11-45BC-78275B3494F1</referredTableID>
+<keyObject>F78B5AFA-099C-1A10-E8EA-AFB45E306253</keyObject>
+<referredKeyID>F78B5AFA-099C-1A10-E8EA-AFB45E306253</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTipoAlimento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
