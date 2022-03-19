@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Pacifico&family=Poppins:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main-title{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+.container--flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header{
+    padding: 0 15px;
+}
+.color-span{
+    color: #EEAD31;
+}
+.icon-menu{
+    font-size: 1.5em;
+    color: #EEAD31;
+    border: 1px solid white;
+    display: block;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    background: #212121;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.menu__item{
+    padding: 20px;
+    text-align: center;
+}
+.menu__link{
+    color: white;
+    text-decoration: none;
+}
+.nav-social{
+    padding: 20px;
+    text-align: right;
+}
+.banner{
+    background: url(../img/MenuTest/banner.png);
+    min-height: 275px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -999;
+}
+.banner:before {
+    content: "";
+    width: 100%;
+    min-height: 275px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.banner__content{
+    width: 35%;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+
