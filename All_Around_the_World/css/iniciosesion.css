@@ -9,9 +9,9 @@ body{/* cuerpo inicio*/
 
 }
 
-.login-box {/* fondo negro*/
+.login-box {/* fondo blanco*/
     width: 320px;
-    height: 420px;
+    height: 430px;
     background: white;
     color:black;
     top: 50%;
@@ -66,7 +66,7 @@ body{/* cuerpo inicio*/
     border: none;
     outline: none;
     height: 40px;
-    background: red;
+    background: crimson;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
