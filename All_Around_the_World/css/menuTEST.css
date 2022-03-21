@@ -31,6 +31,7 @@ body{
     cursor: pointer;
 }
 .menu{
+    display: none;
     position: absolute;
     top: 7%;
     left: 0%;
