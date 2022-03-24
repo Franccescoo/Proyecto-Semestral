@@ -1,180 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HotDog</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <title>PlantillaReceta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-body {
-  margin: 0;
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
+        body {
+            margin: 0;
+        }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
 
-/* Left and right column */
-.column.side {
-  width: 25%;
-}
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
 
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        .footer {
+            background-color: #F1F1F1;
+            text-align: center;
+            padding: 10px;
+        }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-</style>
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="header">
-    <img class="logo" src="img/logopng.png" alt="no se encontro imagen" width="120">
-</div>
 
-<div class="topnav">
-  <a href="MenuTest.html">Menu Inicial</a>
-  <a href="menu_US.html">Volver</a>
-  <a href="registro.html">Cerrar Session</a>
-</div>
 
-<div class="row">
-  <div class="col-md-5 col-sm-12">
-    <img src="img/USAfood/HotDog.png" alt="no se encontro imagen" width="100%">
+    <div class="header">
+        <img class="logo" src="img/logopng.png" alt="no se encontro imagen" width="120">
+    </div>
+
+    <div class="topnav">
+        <a href="MenuTest.html">Menu</a>
+        <a href="menu_US.html">Volver</a>
+        <a href="registro.html">Cerrar Session</a>
+    </div>
+
     <div class="row">
-    <div class="col-4">
-      <i class="bi-alarm"></i>: 30M.
-    </div>
-    <div class="col-4">
-      <i class="bi bi-bar-chart-fill"></i>Dificultad: Facil. 
-    </div>
-    <div class="col-4">
-      Favorito:<i class="bi bi-heart"></i>
-    </div>
-  </div>
-  </div>
-  
-  <div class="col-md-7 col-sm-12">
-    <h2>Ingredientes para HotDog</h2>
-    <p>
-        1 bollo por porcion.<br>
-        1 vienesa por porcion. <br>
-        Condimento a preferencia. (Ketchup, Mayonessa, Mostaza, etc). <br>
-        3 a 5 rodajas de cebolla morada. <br>
-        6 a 7 rodajas de pepinillo. <br>
-        300ml de agua.
-    </p>
+        <div class="column">
+            <img src="img/USAfood/HotDog.png" alt="no se encontro imagen" width="100%">
+            <center>
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="bi-alarm"></i>: 30M
+                    </div>
+                    <div class="col-md-4">
+                        <i class="bi bi-bar-chart-fill"></i>Dificultad: Facil
+                    </div>
+                    <div class="col-md-4">
+                        Favorito: <i class="bi bi-heart"></i>
+                    </div>
+                </div>
+            </center>
+        </div>
 
-  </div>
-  
+        <div class="column">
+            <h2>Ingredientes para HotDog</h2>
+            <p>
+                1 bollo por porcion.<br>
+                1 vienesa por porcion. <br>
+                300ml de agua.
+            </p>
+        </div>
 
-</div>
-<div class="row">
-    <h3>Paso 1.</h3>
-    <p>
-        Pre calentar agua en una tetera o herbirla directamente en la olla. 
-        Mientras el agua se calienta asegurate de limpiar las vienesas para eleminar todo 
-        rastro del conservante. Una ves el agua ya este herbida coloca la vienesa en la olla y 
-        déjala cocinar durante aproximadamente 6 minutos, 
-        si se empieza a ponerse gorda y partirse significa que ya está lista, 
-        siempre presta atención pues cada cocina es diferente.
+        <div class="column">
 
-    </p>
-</div>
-<div class="row">
-    <h3>Paso 2.</h3>
-    <p>
-      Mientras la carne se prepara, pon a tostar los bollos en un horno, tostador o freidora de aire, 
-      lo tenga a la mano. Si quiere preparar una version mas Chilena puede picar un tomate y moler 
-      un aguacate.
-      Pero nos encontramos preparando una version mas simple, por lo cual tomaremos las porciones indicadas de cebolla morada y pepinillos y las trocearemos en pequeñas porciones.
-    </p>
-</div>
-<div class="row">
-  <h3>Paso 3.</h3>
-  <p>
-      Sin olvidarnos de la proteina, acabamos con los agregados
-  </p>
-</div>
-<div class="footer">
-  <footer class="pie-pagina">
-    <div class="grupo-1">
-        <div class="box">
-            <h2>SIGUENOS</h2>
-            <div class="red-social">
-              <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <h2>Opcional</h2>
+            <p>
+                Condimento a preferencia. (Ketchup, Mayonessa, Mostaza, etc). <br>
+                Al gusto:
+                1 Aguacate.
+                1 Tomate.
+                Queso.
+                3 a 5 rodajas de cebolla morada. <br>
+                6 a 7 rodajas de pepinillo. <br>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <h3>Paso 1.</h3>
+            <div class="container-fluid">
+                Pre calentar agua en una tetera o herbirla directamente en la olla.
+                Mientras el agua se calienta asegurate de limpiar las vienesas para eleminar todo
+                rastro del conservante. Una ves el agua ya este herbida coloca la vienesa en la olla y
+                déjala cocinar durante aproximadamente 6 minutos a fuego alto,
+                si se empieza a ponerse gorda y partirse significa que ya está lista,
+                siempre presta atención pues cada cocina es diferente.
+            </div>
+        </div>
+        <div class="row">
+            <h3>Paso 2.</h3>
+            <div class="container-fluid">
+                Mientras la carne se prepara, coloca a tostar los bollos en un horno, tostador o freidora de aire,
+                lo tenga a la mano. Si desea prepararlo de una manera mas Latina puede picar un tomate y moler
+                un aguacate.
+                Pero nos encontramos preparando una version mas simple, por lo cual tomaremos las porciones indicadas de
+                cebolla
+                morada y pepinillos y las trocearemos en pequeñas porciones.
+            </div>
+        </div>
+        <div class="row">
+            <h3>Paso 3.</h3>
+            <div class="container-fluid">
+                Una ves todo preparado, armen el Hotdog aplicando los ingredientes de su preferencia y disfruten.
+                </p>
             </div>
         </div>
     </div>
-    <div class="grupo-2">
-        <small>&copy; 2022 <b>All Around The World</b> - Todos los Derechos Reservados.</small>
-    </div>
-</footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <div class="footer">
+        <footer class="pie-pagina">
+
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>All Around The World</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
 
 </body>
+
 </html>
-
-
