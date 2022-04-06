@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70AF0C1A-55EC-14A1-76A1-1D4D786929F2" name="USUARIO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>C09752BF-E2AD-FAF2-590D-4AD286BDCF16</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUser" id="04E707F3-9A84-814A-AE51-7FED45260EE3">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del usuario]]></commentInRDBMS>
+<generatorID>60F50E92-8BF6-46E8-F916-EA965B505E55</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AD143C8E-78BE-C17D-E57E-008504AD209C">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer nombre del usuario]]></commentInRDBMS>
+<generatorID>830E63A8-2242-52F6-1040-03B6DB4CB929</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="222C64D7-9792-34CB-3434-82A218D03AA4">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>6031051C-C1D2-39E0-AA3B-EBE324607A7C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecNac" id="296E485E-FF69-8AE2-56E8-37BFCBEFB9B4">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento del usuario]]></commentInRDBMS>
+<generatorID>D315E80D-C5D7-E653-FD33-AF4DB097458F</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avatar" id="91018143-A2B6-1331-6B4A-A1C9C0CDE206">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de perfil del usuario]]></commentInRDBMS>
+<generatorID>C2325CD2-EFB7-E37F-65AD-68363F3C5C3F</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="F747235B-F4E8-80D4-0171-993E24BBA85B">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
+<generatorID>AADC3B19-B6F5-CBF0-1E16-750A8CA0321B</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="7038C629-502E-FDE3-45D2-417DB837E4E6">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contraseña del usuario]]></commentInRDBMS>
+<generatorID>C7B731D3-1EA5-9941-7EA6-F63CCF5630D6</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="034E8CC1-4914-A79B-4EC5-C62025660CED">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electronico del usuario]]></commentInRDBMS>
+<generatorID>EEED5DED-4D5E-E4F2-9D33-E2ACAC9CD8CA</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO USUARIO idTipoUsuario" id="D8E9CBFC-A243-75F4-CC91-C722FDD1BC2C">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de usuario]]></commentInRDBMS>
+<generatorID>514FDC5F-C2CF-208E-FD10-89506441F401</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>C89EAAE0-11D6-568F-3ADE-9EEACF1FB168</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4452861B-34D3-28B4-51DF-0D36FE87B185" name="USUARIO PKv1">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>F3A3332D-735F-A944-E0C1-1EDFB1BEC756</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04E707F3-9A84-814A-AE51-7FED45260EE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

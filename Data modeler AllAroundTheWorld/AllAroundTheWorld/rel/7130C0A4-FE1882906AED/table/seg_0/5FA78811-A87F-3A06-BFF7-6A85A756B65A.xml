@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CCCA07C-C7CD-531B-172A-C65A37F068AE" name="NACIONALIDADv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FA78811-A87F-3A06-BFF7-6A85A756B65A" name="PAGINA">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>348A2173-1234-0FB3-CC1C-791738D61283</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>C2B9D39E-9652-5749-4E96-DECDA455842F</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idNacionalidad" id="7EB4D6E8-EEA6-8DC2-CE85-3742A7241E62">
+<Column name="idRecurso" id="DB7F0E23-D7F9-F299-0B2D-E12A73F4799F">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador unico de la nacionalidad de la receta.]]></commentInRDBMS>
-<generatorID>2A84A506-4DBB-A5A5-DCCC-CF2621FC26A3</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del recurso de la pagina]]></commentInRDBMS>
+<generatorID>DB56B6FD-FF7D-7E11-3AC2-1C49FE418AEA</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,31 +20,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nomNacionalidad" id="93DD79C5-5C68-17CB-E9A4-1B9155167970">
+<Column name="imagen" id="8A4D7DCE-95A8-6420-45D7-6679B6F6FCBA">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nombre del pais de origen de la receta]]></commentInRDBMS>
-<generatorID>858892C3-D3F6-4C85-FCD9-33DD6DA14111</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen utilizada en la pagina]]></commentInRDBMS>
+<generatorID>BA014220-7904-D1E8-5939-896808EB2BF6</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E6FC67D2-C271-23ED-BE84-B9CD6D24AE0A" name="NACIONALIDAD_PKv1">
+<ind_PK_UK id="9818CE29-9761-E839-A6B8-8F91771D8A66" name="PAGINA_PK">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>AAF512AF-4815-4F61-E825-1EBE7ACCCF6D</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>EDDE66A5-C24A-39DA-1FD1-06451B54E876</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7EB4D6E8-EEA6-8DC2-CE85-3742A7241E62"/>
+<colUsage columnID="DB7F0E23-D7F9-F299-0B2D-E12A73F4799F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

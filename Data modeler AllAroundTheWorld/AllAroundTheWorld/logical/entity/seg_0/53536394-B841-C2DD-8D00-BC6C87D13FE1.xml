@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53536394-B841-C2DD-8D00-BC6C87D13FE1" name="TIPO ALIMENTO">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>697CC623-E793-CE11-45BC-78275B3494F1</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTipoAlimento" id="417EE11F-12F4-B7B4-1554-A1A1024E766D">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del tipo de alimento]]></commentInRDBMS>
+<generatorID>C274E569-107D-E6BB-BDB0-0BE35722B2F3</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomTipoAlimento" id="6F9DB8B9-499A-3FA2-EE34-073C06D235AE">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de alimento.
+1. Comida
+2. Postre
+3. Bebida
+4. Otro]]></commentInRDBMS>
+<generatorID>3391A5FA-3C69-4C62-7A21-25CDE265F049</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5B359DC-6B8A-CD55-5CA6-746848D72E8C" name="TIPO ALIMENTO PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>F78B5AFA-099C-1A10-E8EA-AFB45E306253</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>417EE11F-12F4-B7B4-1554-A1A1024E766D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

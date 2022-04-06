@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAF6B2A6-2123-E974-1269-CF75DE5D2C5E" name="NACIONALIDAD">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>4B832E21-7D0B-8B71-73AD-8084B690854D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idNacionalidad" id="981EDE63-AFD9-4C64-07AE-B99C0EF9A33D">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de la nacionalidad de la receta.]]></commentInRDBMS>
+<generatorID>6F65CA97-6F81-FC56-32FB-4A9CFA98FC4C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomNacionalidad" id="4DE132AD-057F-630A-7C49-79B3E90BAE0B">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del pais de origen de la receta]]></commentInRDBMS>
+<generatorID>E54F7DA7-4BEB-B59B-5537-BE24109704C4</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DC878A5-098A-B393-1F93-D03BFD517049" name="NACIONALIDAD PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>8EE3CBA6-BA33-65BF-56D0-4B3394A2FE6C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>981EDE63-AFD9-4C64-07AE-B99C0EF9A33D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

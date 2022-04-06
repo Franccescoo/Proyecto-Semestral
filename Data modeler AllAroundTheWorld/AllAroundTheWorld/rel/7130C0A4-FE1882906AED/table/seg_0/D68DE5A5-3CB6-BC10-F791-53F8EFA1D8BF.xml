@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D68DE5A5-3CB6-BC10-F791-53F8EFA1D8BF" name="TIPO_ALIMENTO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D68DE5A5-3CB6-BC10-F791-53F8EFA1D8BF" name="TIPO_ALIMENTOv1">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:43:03 UTC</createdTime>
 <generatorID>9645053E-D81C-E4BF-4A99-B4F5571F0704</generatorID>
@@ -39,7 +39,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="86DF86F3-374C-B153-CF36-4F1AE438A7DB" name="TIPO_ALIMENTO_PK">
+<ind_PK_UK id="86DF86F3-374C-B153-CF36-4F1AE438A7DB" name="TIPO_ALIMENTO_PKv1">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:43:03 UTC</createdTime>
 <generatorID>F4CC595B-8C0E-469F-CB77-B34EFD7C2CC2</generatorID>

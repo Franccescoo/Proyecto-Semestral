@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECENIA_RECETA_FKv1" directorySegmentName="seg_0" id="CECC768D-4CBA-7485-531D-F70D0D665FD4">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>A41F12EB-8F78-001B-3E47-5B8F185577E0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>4DE36A52-75A7-9865-BA28-5D09AC79ADCD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14DE8107-FF0B-AD73-E4C2-A1AFB9DF6820</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20D65A6B-5FCC-6CA4-00C0-649EBF5FC2F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

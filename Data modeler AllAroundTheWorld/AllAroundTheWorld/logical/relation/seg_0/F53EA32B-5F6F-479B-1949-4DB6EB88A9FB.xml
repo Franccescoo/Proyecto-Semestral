@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECENIA_USUARIO_FKv1" directorySegmentName="seg_0" id="F53EA32B-5F6F-479B-1949-4DB6EB88A9FB">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>563414DC-4531-4B1D-5FA1-38A57A126908</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>4452861B-34D3-28B4-51DF-0D36FE87B185</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70AF0C1A-55EC-14A1-76A1-1D4D786929F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20D65A6B-5FCC-6CA4-00C0-649EBF5FC2F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B079D90-49CF-800D-899E-138F857B9BA6" name="USUARIOv1">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>70AF0C1A-55EC-14A1-76A1-1D4D786929F2</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUser" id="782E8A8E-8C3A-18B6-4AA8-2923EF674814">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico del usuario]]></commentInRDBMS>
+<generatorID>04E707F3-9A84-814A-AE51-7FED45260EE3</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BA2FAB0C-E511-CF89-E875-8599E2B09BE9">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer nombre del usuario]]></commentInRDBMS>
+<generatorID>AD143C8E-78BE-C17D-E57E-008504AD209C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="CD2400CB-DB87-1390-B535-57F385E12B45">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellidos del usuario]]></commentInRDBMS>
+<generatorID>222C64D7-9792-34CB-3434-82A218D03AA4</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avatar" id="00874E3E-2F98-B431-451A-604A56E02C80">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de perfil del usuario]]></commentInRDBMS>
+<generatorID>91018143-A2B6-1331-6B4A-A1C9C0CDE206</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="BE18F93D-27C0-2F65-48C2-F9EDD0D2BAAD">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario]]></commentInRDBMS>
+<generatorID>F747235B-F4E8-80D4-0171-993E24BBA85B</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="4BF92CE2-84AB-8F37-204E-213F9D52FB37">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contraseña del usuario]]></commentInRDBMS>
+<generatorID>7038C629-502E-FDE3-45D2-417DB837E4E6</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B45D4F24-068F-2BC5-C7C9-AADA9F2D7157">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electronico del usuario]]></commentInRDBMS>
+<generatorID>034E8CC1-4914-A79B-4EC5-C62025660CED</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idTipoUsuario" id="AAAE0F19-7329-95B4-02C8-BAF0C1961FD8">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de usuario]]></commentInRDBMS>
+<generatorID>D8E9CBFC-A243-75F4-CC91-C722FDD1BC2C</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FABF4251-52A9-6A86-979E-9B85B6B810B0" referredColumn="43326814-51D8-83F8-6A6D-CA85FB30F9AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE3058F3-361B-CBF6-7132-8BBB1A9729CD" name="USUARIOv1_PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>4452861B-34D3-28B4-51DF-0D36FE87B185</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="782E8A8E-8C3A-18B6-4AA8-2923EF674814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2630A17-1FAA-1EFB-78A1-204FF990A6E8" name="USUARIOv1_TIPO_USUARIOv1_FK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>514FDC5F-C2CF-208E-FD10-89506441F401</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAAE0F19-7329-95B4-02C8-BAF0C1961FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

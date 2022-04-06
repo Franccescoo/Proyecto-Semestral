@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14DE8107-FF0B-AD73-E4C2-A1AFB9DF6820" name="RECETA">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>BC439784-F4B9-8F29-0EB8-A40F5F453B29</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReceta" id="4594B566-13EA-D552-22CB-6E6F16AC81AE">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de la receta]]></commentInRDBMS>
+<generatorID>FFF9F481-9F65-A924-D032-D76D80A0FD7D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreReceta" id="DA8B57FD-7045-A98E-0734-63FF82C01203">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la receta]]></commentInRDBMS>
+<generatorID>C2D9F7FB-0A6A-71F2-A984-61B4C8FD0AAB</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingrediente" id="1F80C236-6235-369D-5584-CCEAAF59743A">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ingredientes usados en la receta]]></commentInRDBMS>
+<generatorID>E707ACDE-80D7-0A49-CE13-C35516DF4F0A</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preparacion" id="08008572-A736-B5FC-44FF-F76914736AE1">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paso a paso de la preparacion de la recta.]]></commentInRDBMS>
+<generatorID>2FD4EE84-DE1C-1BF8-4028-54F9C48EC03A</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen" id="D0ED00F3-878E-8935-3CFD-731D34D46237">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imagen de la comida]]></commentInRDBMS>
+<generatorID>5432EAF0-A54D-8560-0687-B39A2F3450B9</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comentario" id="747CD5DC-4B43-8F16-C953-12E562C3B310">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Comentarios opcionales del escritor sobre su receta.]]></commentInRDBMS>
+<generatorID>47BBB790-D85C-EEC0-1ED1-31688CD264A0</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD idNacionalidad" id="8B945186-E75B-013B-64F8-05F2BFCD468E">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con la nacionalidad de la receta]]></commentInRDBMS>
+<generatorID>F48DE961-3D0E-074A-1C63-FA1041B1DE47</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>981EDE63-AFD9-4C64-07AE-B99C0EF9A33D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO ALIMENTO idTipoAlimento" id="CF1BB121-2B86-2771-79B1-8C3265B082CD">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de alimento de la receta]]></commentInRDBMS>
+<generatorID>7EF0EA08-51F9-1C68-960C-6174362006BC</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>417EE11F-12F4-B7B4-1554-A1A1024E766D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO DIETA idTipoDieta" id="9C144C7D-0659-17E3-E868-BF0167D1F4F8">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conexion con el tipo de dieta de la receta]]></commentInRDBMS>
+<generatorID>140B21B8-35B6-CEB7-10F9-6D1614878D2A</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>4E29FA2F-D00B-7332-34B2-FF71BB04D440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO idUser" id="A3F65F38-1489-DFA8-B90B-C6B9F1A01423">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Escritor de la receta]]></commentInRDBMS>
+<generatorID>A3A60A55-6CC1-32E0-F77B-7C94D5CCB6DE</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<referedAttribute>04E707F3-9A84-814A-AE51-7FED45260EE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DE36A52-75A7-9865-BA28-5D09AC79ADCD" name="RECETA PK">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>4AE33804-0994-0DFF-A3C9-E8E0E99D901E</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4594B566-13EA-D552-22CB-6E6F16AC81AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECETA_NACIONALIDAD_FKv1" directorySegmentName="seg_0" id="F48DE961-3D0E-074A-1C63-FA1041B1DE47">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>5DB4C586-51D6-B1CA-4932-1F92BD6ECC31</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>6DC878A5-098A-B393-1F93-D03BFD517049</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAF6B2A6-2123-E974-1269-CF75DE5D2C5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14DE8107-FF0B-AD73-E4C2-A1AFB9DF6820</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

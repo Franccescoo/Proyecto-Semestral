@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A406CDB3-408B-6B72-0273-0706FACB0BC2" name="RECENIAv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="189F00F4-37F3-4885-1227-FF068066C78E" name="RECENIA">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>CFFD7DB9-5B06-604E-607A-F1512EC0145A</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>20D65A6B-5FCC-6CA4-00C0-649EBF5FC2F9</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idRecenia" id="EC640A65-C8E4-3FE4-0908-7F913F76BC9D">
+<Column name="idRecenia" id="3AE2C261-4AF4-B606-802E-10B7E425EBB3">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificador unico de la receña de parte del usuario a la receta]]></commentInRDBMS>
-<generatorID>BA40964C-736B-C17E-27A9-213AD332F6D7</generatorID>
+<generatorID>BC139AE4-7C6C-2AFB-9354-53FC42977CF5</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,11 +20,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="txtRecenia" id="D5F3700C-C288-6A7C-ECA7-F26AB213F7F4">
+<Column name="txtRecenia" id="3874433E-B757-D89F-DA98-31118D0734B3">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Receña del usuario]]></commentInRDBMS>
-<generatorID>BD1FAAC2-E150-14E9-2B94-006FC7E23282</generatorID>
+<generatorID>C705A080-E0D8-46CD-249A-DE68E8A41F0E</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,11 +33,11 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="idUser" id="42ECC743-CACF-AFF1-95A0-31AD4E4ADF83">
+<Column name="idUser" id="C7DA4863-E436-7797-6999-00637AB15606">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Conexion con el usuario escritor de la receña]]></commentInRDBMS>
-<generatorID>416E7DEB-2F1C-6D9F-1CA3-C7EA12FD7055</generatorID>
+<generatorID>EBE1D6B5-ECE8-9382-C0F2-045C671C82CD</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,14 +46,14 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2CD907F5-EB1B-1D12-26C0-780A11618928" referredColumn="9B5E6A8B-9510-E966-DCCE-BFEDB392B68D"/>
+<colAssociation fkAssociation="028E8675-4953-74FF-75DC-7D75D6804044" referredColumn="782E8A8E-8C3A-18B6-4AA8-2923EF674814"/>
 </associations>
 </Column>
-<Column name="idReceta" id="1F60B3DE-9DEC-B274-A896-7AAF239C5E82">
+<Column name="idReceta" id="7A573DFE-A0C1-8076-030C-FEE1D76D7D7F">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Conexion con la receta a la cual se le escribe la receña]]></commentInRDBMS>
-<generatorID>DB081203-55F3-2650-B0D1-6A7191840870</generatorID>
+<generatorID>5766CF97-9CAB-6C91-78FE-0D4152668768</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,43 +62,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="004BC88F-328C-EA3E-6677-A4EA28CDFC1A" referredColumn="96FB32F7-6C4D-7413-3879-9ADDB5954233"/>
+<colAssociation fkAssociation="F3085F9E-3651-8901-39DF-0E1D89FDA73D" referredColumn="EC33D020-9A75-5384-8219-7A62EFA7CDD1"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0B8B3DE1-3EE5-E444-EA07-BAD8BFB7C48F" name="RECENIA_PKv1">
+<ind_PK_UK id="E64FFF46-2A33-3EB6-9EAB-6AF75A913F5D" name="RECENIA_PK">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>6E1410B5-772D-FA3C-B78F-145F3AC12DA4</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>8B719251-CBF0-6E22-5AF2-1280184962D2</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC640A65-C8E4-3FE4-0908-7F913F76BC9D"/>
+<colUsage columnID="3AE2C261-4AF4-B606-802E-10B7E425EBB3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2336238B-C559-B6EB-38B4-E7DCFE804AD0" name="RECENIA_RECETA_FK">
+<ind_PK_UK id="8CC2B7B3-4F16-B561-807B-B016CECC98FF" name="RECENIA_RECETA_FK">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>D7EB7BA8-5C7C-93F4-B663-D8BC5532758B</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>CECC768D-4CBA-7485-531D-F70D0D665FD4</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1F60B3DE-9DEC-B274-A896-7AAF239C5E82"/>
+<colUsage columnID="7A573DFE-A0C1-8076-030C-FEE1D76D7D7F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DE47F3F4-05F2-F1B4-A7EF-475559880F12" name="RECENIA_USUARIO_FK">
+<ind_PK_UK id="075F1D3E-941B-F86F-E41D-5616AA27733A" name="RECENIA_USUARIOv1_FK">
 <createdBy>alex7</createdBy>
-<createdTime>2022-03-13 18:43:03 UTC</createdTime>
-<generatorID>D1FB38D8-1410-F4D1-6558-0497C44B5F1F</generatorID>
+<createdTime>2022-04-06 01:50:17 UTC</createdTime>
+<generatorID>F53EA32B-5F6F-479B-1949-4DB6EB88A9FB</generatorID>
 <ownerDesignName>AllAroundTheWorld</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="42ECC743-CACF-AFF1-95A0-31AD4E4ADF83"/>
+<colUsage columnID="C7DA4863-E436-7797-6999-00637AB15606"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

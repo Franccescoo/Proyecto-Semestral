@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECETA_TIPO_DIETA_FK" directorySegmentName="seg_0" id="140B21B8-35B6-CEB7-10F9-6D1614878D2A">
+<createdBy>alex7</createdBy>
+<createdTime>2022-04-06 01:48:57 UTC</createdTime>
+<generatorID>529B3132-3867-2652-2E83-50953EC1040D</generatorID>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<sourcePk>70F727BE-6A8F-5405-6AF7-B3E7AA8560C6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E84058CD-0C61-897D-213C-C883D60EB617</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14DE8107-FF0B-AD73-E4C2-A1AFB9DF6820</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
